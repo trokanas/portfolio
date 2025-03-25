@@ -29,48 +29,40 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
+    name: 'Movie Farm',
     description:
-      'Advanced components and templates to craft beautiful websites.',
-    link: 'https://pro.motion-primitives.com/',
+      'Movie Farm allows users to quickly find and explore movies from a database of 1 million+ entries. Users can search by title, genre, release year, or cast, view detailed movie information, watch trailers, and read reviews. The app features fast search, personalized recommendations, and a user-friendly interface for seamless browsing.',
+    link: 'https://movie-farm.com/',
     video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
+      'https://portfoliobucket077.s3.eu-north-1.amazonaws.com/Screen+Recording+2025-03-25+at+16.25.54.mov',
     id: 'project1',
   },
   {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
-    link: 'https://motion-primitives.com/',
+    name: 'KDAP Kids Athletics',
+    description: 'Kids Athletics is a Centre of Creative Activities for Children, featuring a user-friendly website designed for seamless navigation. The platform highlights sports, arts, and educational programs, offering parents an easy way to explore activities, view schedules, and register online. Optimized for performance and accessibility, the site ensures a smooth experience across all devices.',
+    link: 'https://kidsathletics.gr',
     video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+      'https://portfoliobucket077.s3.eu-north-1.amazonaws.com/Screen+Recording+2025-03-25+at+16.22.11.mov',
     id: 'project2',
   },
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: 'Reglazed Studio',
-    title: 'CEO',
-    start: '2024',
+    company: 'DEI College',
+    title: 'IT Administrator',
+    start: '2023',
     end: 'Present',
-    link: 'https://ibelick.com',
+    link: 'https://dei.edu.gr',
     id: 'work1',
   },
   {
     company: 'Freelance',
-    title: 'Design Engineer',
+    title: 'Web Developer',
     start: '2022',
-    end: '2024',
-    link: 'https://ibelick.com',
-    id: 'work2',
-  },
-  {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
     end: 'Present',
-    link: 'https://ibelick.com',
-    id: 'work3',
+    link: 'https://trokanas.com',
+    id: 'work2',
   },
 ]
 
@@ -81,39 +73,29 @@ export const BLOG_POSTS: BlogPost[] = [
     link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
     uid: 'blog-1',
   },
-  {
-    title: 'Why I left my job to start my own company',
-    description:
-      'A deep dive into my decision to leave my job and start my own company',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
-    uid: 'blog-2',
-  },
-  {
-    title: 'What I learned from my first year of freelancing',
-    description:
-      'A look back at my first year of freelancing and what I learned',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
-    uid: 'blog-3',
-  },
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',
-    link: 'https://github.com/ibelick',
+    link: 'https://github.com/trokanas',
   },
   {
-    label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
+    label: 'X',
+    link: 'https://x.com/trokanas1',
   },
   {
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
+    link: 'https://www.linkedin.com/in/trokanas',
   },
   {
     label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    link: 'https://www.instagram.com/kwstastrok',
+  },
+  {
+    label: 'LeetCode',
+    link: 'https://leetcode.com/u/trokanas/',
   },
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'trokanas.k@outlook.com'
