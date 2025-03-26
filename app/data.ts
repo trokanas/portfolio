@@ -32,7 +32,7 @@ export const PROJECTS: Project[] = [
     name: 'Movie Farm',
     description:
       'Movie Farm allows users to quickly find and explore movies from a database of 1 million+ entries. Users can search by title, genre, release year, or cast, view detailed movie information, watch trailers, and read reviews. The app features fast search, personalized recommendations, and a user-friendly interface for seamless browsing.',
-    link: 'https://movie-farm.com/',
+    link: 'https://moviefarm-theta.vercel.app',
     video:
       'https://portfoliobucket077.s3.eu-north-1.amazonaws.com/Screen+Recording+2025-03-25+at+16.25.54.mov',
     id: 'project1',
